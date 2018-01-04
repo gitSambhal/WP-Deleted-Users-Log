@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: SPRV Deleted Users Log
+ * Plugin Name: WP Deleted Users Log
  * Plugin URI: http://sprvtec.com
  * Description: A simple plugin for displaying log of deleted users.
  * Version: 1.0
@@ -56,13 +56,13 @@ function sprvdu_add_users_page()
 
     add_users_page(
         // $page_title
-         'Deleted users'
+         'WP Deleted Users'
         // $menu_title
-        ,'Deleted users'
+        ,'WP Deleted Users'
         // $capability
         ,'read'
         // $menu_slug
-        ,'sprv-deleted-users'
+        ,'wp-deleted-users'
         ,'sprvdu_render_users_page'
     );
 }
